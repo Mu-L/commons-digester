@@ -275,7 +275,7 @@ such arrangements are called <em>element matching patterns</em>.</p>
 
 <p>The Digester can be configured to use different pattern-matching algorithms
 via the Digester.setRules method. However for the vast majority of cases, the
-default matching algorithm works fine. The default pattern matching behaviour
+default matching algorithm works fine. The default pattern matching behavior
 is described below.</p>
 
 <p>A very simple element matching pattern is a simple string like "a".  This
@@ -329,7 +329,7 @@ reverse order. In other words - the order is first in, last out.</p>
 <p>Note that wildcard patterns are ignored if an explicit match can be found 
 (and when multiple wildcard patterns match, only the longest, ie most 
 explicit, pattern is considered a match). The result is that rules can be 
-added for "an &lt;a&gt; tag anywhere", but then for that behaviour to be 
+added for "an &lt;a&gt; tag anywhere", but then for that behavior to be 
 explicitly overridden for specific cases, eg "but not an &lt;a&gt; that is a 
 direct child of an &lt;x&gt;". Therefore if you have rules A and B registered for
 pattern "*/a" then want to add an additional rule C for pattern "x/a" only, 
@@ -941,7 +941,7 @@ following as part of your Digester initialization:</p>
 is an advanced <code>Rules</code> implementation which does not build on the default pattern matching rules.
 It uses a pluggable <a href="../apidocs/org/apache/commons/digester3/RegexMatcher.html">RegexMatcher</a> implementation to test
 if a path matches the pattern for a Rule. All matching rules are returned 
-(note that this behaviour differs from longest matching rule of the default
+(note that this behavior differs from longest matching rule of the default
  pattern matching rules). See the Java Docs for more details.
 </p>
 <p>

@@ -235,7 +235,7 @@ pattern should not include any wildcard characters.</p>
 earlier ones.</p>
 <p>
 In situations where a user <i>might</i> want to specify a custom class,
-but will often want "default" behaviour, a PluginCreateRule can specify
+but will often want "default" behavior, a PluginCreateRule can specify
 a default class. If the user then omits the "plugin-id" attribute on
 the matching XML element, an instance of the default class will be
 created.</p>
@@ -294,7 +294,7 @@ rules are.</p>
 <p>
 The RuleFinder list is carefully ordered; classes which look at the 
 user-provided data in the declaration come first, and classes which look in 
-"well-known places" come later so that users can override default behaviour by 
+"well-known places" come later so that users can override default behavior by 
 providing the appropriate tags on the plugin declaration.</p>
 <p>
 See the javadoc on the different Finder classes for information on what

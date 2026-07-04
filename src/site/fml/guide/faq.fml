@@ -66,7 +66,7 @@ based processors).
 </p>
 <p>
 This means that the errors reported by the validation of the schema will appear in the
-Digester logs but the processing will continue. To change this behaviour, call
+Digester logs but the processing will continue. To change this behavior, call
 <code>digester.setErrorHandler</code> with a more suitable implementation.
 </p></answer>
         </faq>

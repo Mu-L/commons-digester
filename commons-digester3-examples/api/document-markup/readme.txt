@@ -49,7 +49,7 @@ run the example directly.
 
 The primary use of the Digester is to process XML configuration files.
 Such files do not typically interleave text and child elements in the
-style encountered with document markup. The standard Digester behaviour is 
+style encountered with document markup. The standard Digester behavior is 
 therefore to accumulate all text within an XML element's body (of which there is
 expected to be only one "segment") and present it to a Rule or user method
 as a single string.
