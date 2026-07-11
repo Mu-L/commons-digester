@@ -37,7 +37,7 @@ public class ExtendedBaseRulesTestCase
      * <p>
      * This should be overridden by subclasses.
      *
-     * @return the matching rules to be tested.
+     * @return The matching rules to be tested.
      */
     @Override
     protected Rules createMatchingRulesForTest()

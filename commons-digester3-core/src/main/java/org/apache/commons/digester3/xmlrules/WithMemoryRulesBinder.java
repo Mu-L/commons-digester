@@ -76,7 +76,7 @@ final class WithMemoryRulesBinder
     }
 
     /**
-     * @return the set of included files
+     * @return The set of included files
      */
     public Set<String> getIncludedFiles()
     {
@@ -84,7 +84,7 @@ final class WithMemoryRulesBinder
     }
 
     /**
-     * @return the pattern stack
+     * @return The pattern stack
      */
     public PatternStack getPatternStack()
     {

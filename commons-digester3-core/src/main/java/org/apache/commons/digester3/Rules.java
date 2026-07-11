@@ -47,14 +47,14 @@ public interface Rules
     /**
      * Gets the Digester instance with which this Rules instance is associated.
      *
-     * @return the Digester instance with which this Rules instance is associated
+     * @return The Digester instance with which this Rules instance is associated
      */
     Digester getDigester();
 
     /**
      * Gets the namespace URI that will be applied to all subsequently added {@code Rule} objects.
      *
-     * @return the namespace URI that will be applied to all subsequently added {@code Rule} objects.
+     * @return The namespace URI that will be applied to all subsequently added {@code Rule} objects.
      */
     String getNamespaceURI();
 

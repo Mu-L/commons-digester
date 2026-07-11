@@ -238,7 +238,7 @@ public class PluginRules
     /**
      * Gets the Digester instance with which this instance is associated.
      *
-     * @return the Digester instance with which this instance is associated.
+     * @return The Digester instance with which this instance is associated.
      */
     @Override
     public Digester getDigester()
@@ -249,7 +249,7 @@ public class PluginRules
     /**
      * Gets the namespace URI that will be applied to all subsequently added {@code Rule} objects.
      *
-     * @return the namespace URI that will be applied to all subsequently added {@code Rule} objects.
+     * @return The namespace URI that will be applied to all subsequently added {@code Rule} objects.
      */
     @Override
     public String getNamespaceURI()
@@ -260,7 +260,7 @@ public class PluginRules
     /**
      * Gets the parent Rules object.
      *
-     * @return the parent Rules object.
+     * @return The parent Rules object.
      */
     public Rules getParent()
     {
@@ -270,7 +270,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#getPluginClassAttr}.
      *
-     * @return the namespace for the XML attribute which indicates which class is to be plugged in.
+     * @return The namespace for the XML attribute which indicates which class is to be plugged in.
      */
     public String getPluginClassAttr()
     {
@@ -280,7 +280,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#getPluginClassAttrNs}.
      *
-     * @return the namespace for the XML attribute which indicates which class is to be plugged in.
+     * @return The namespace for the XML attribute which indicates which class is to be plugged in.
      */
     public String getPluginClassAttrNs()
     {
@@ -290,7 +290,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#getPluginIdAttr}.
      *
-     * @return the namespace for the XML attribute which indicates which previous plugin declaration should be used.
+     * @return The namespace for the XML attribute which indicates which previous plugin declaration should be used.
      */
     public String getPluginIdAttr()
     {
@@ -300,7 +300,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#getPluginIdAttrNs}.
      *
-     * @return the namespace for the XML attribute which indicates which previous plugin declaration should be used.
+     * @return The namespace for the XML attribute which indicates which previous plugin declaration should be used.
      */
     public String getPluginIdAttrNs()
     {
@@ -320,7 +320,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#getRuleFinders}.
      *
-     * @return the list of RuleFinder objects
+     * @return The list of RuleFinder objects
      */
     public List<RuleFinder> getRuleFinders()
     {
@@ -330,7 +330,7 @@ public class PluginRules
     /**
      * Gets the rules factory object (or null if one has not been specified).
      *
-     * @return the rules factory object.
+     * @return The rules factory object.
      */
     public RulesFactory getRulesFactory()
     {

@@ -52,7 +52,7 @@ public class SimpleRegexMatcher
     /**
      * Gets the {@code Log} implementation.
      *
-     * @return the {@code Log} implementation.
+     * @return The {@code Log} implementation.
      */
     public Log getLog()
     {

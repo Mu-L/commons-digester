@@ -40,7 +40,7 @@ public interface ObjectCreationFactory<T>
      * Factory method called by {@link FactoryCreateRule} to supply an object based on the element's attributes.
      *
      * @param attributes the element's attributes
-     * @return the object to be pushed onto the {@code Digester} stack
+     * @return The object to be pushed onto the {@code Digester} stack
      * @throws Exception any exception thrown will be propagated upwards
      */
     T createObject( Attributes attributes )
@@ -49,7 +49,7 @@ public interface ObjectCreationFactory<T>
     /**
      * Returns the {@link Digester} that was set by the {@link FactoryCreateRule} upon initialization.
      *
-     * @return the {@link Digester} that was set by the {@link FactoryCreateRule} upon initialization
+     * @return The {@link Digester} that was set by the {@link FactoryCreateRule} upon initialization
      */
     default Digester getDigester()
     {

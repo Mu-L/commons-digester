@@ -50,7 +50,7 @@ public interface StackAction
      * @param stackName is the name of the stack from which the object has been popped. Null is passed to indicate the
      *            default stack.
      * @param o is the object that has just been popped.
-     * @return the object to be returned to the called. Normally, parameter o is returned but this method could return
+     * @return The object to be returned to the called. Normally, parameter o is returned but this method could return
      *         an alternate object.
      */
     <T> T onPop( Digester d, String stackName, T o );
@@ -64,7 +64,7 @@ public interface StackAction
      *            default stack.
      * @param o is the object that has just been pushed. Calling peek on the specified stack will return
      *        the same object.
-     * @return the object to be pushed. Normally, parameter o is returned but this method could return an alternate
+     * @return The object to be pushed. Normally, parameter o is returned but this method could return an alternate
      *         object to be pushed instead (eg a proxy for the provided object).
      */
     <T> T onPush( Digester d, String stackName, T o );

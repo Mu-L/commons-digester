@@ -62,7 +62,7 @@ public abstract class Substitutor
      * parses.
      *
      * @param bodyText the body text (as passed to {@code Digester})
-     * @return the body text to be passed to the {@code Rule} implementations
+     * @return The body text to be passed to the {@code Rule} implementations
      */
     public abstract String substitute( String bodyText );
 

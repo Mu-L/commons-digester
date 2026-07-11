@@ -45,7 +45,7 @@ public final class AddAliasBuilder<B>
      * Allows expressing the input property name alias.
      *
      * @param propertyName The Java bean property to be assigned the value
-     * @return the parent builder to chain.
+     * @return The parent builder to chain.
      */
     public B forProperty( /*@Nullable*/ final String propertyName )
     {

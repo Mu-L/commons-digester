@@ -123,14 +123,14 @@ public abstract class AbstractMethodRule
     /**
      * Returns the argument object of method has to be invoked.
      *
-     * @return the argument object of method has to be invoked.
+     * @return The argument object of method has to be invoked.
      */
     protected abstract Object getChild();
 
     /**
      * Returns the target object of method has to be invoked.
      *
-     * @return the target object of method has to be invoked.
+     * @return The target object of method has to be invoked.
      */
     protected abstract Object getParent();
 
@@ -218,7 +218,7 @@ public abstract class AbstractMethodRule
      * Returns the flag this rule be invoked when {@link #begin(String, String, Attributes)} (true)
      * or {@link #end(String, String)} (false) methods are invoked, false by default.
      *
-     * @return the flag this rule be invoked when {@link #begin(String, String, Attributes)} (true)
+     * @return The flag this rule be invoked when {@link #begin(String, String, Attributes)} (true)
      * or {@link #end(String, String)} (false) methods are invoked, false by default.
      */
     public boolean isFireOnBegin()

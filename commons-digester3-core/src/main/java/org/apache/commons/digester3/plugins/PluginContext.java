@@ -81,7 +81,7 @@ public class PluginContext
      * <p>
      * The return value is never null.
      *
-     * @return the namespace for the XML attribute which indicates which class is to be plugged in.
+     * @return The namespace for the XML attribute which indicates which class is to be plugged in.
      */
     public String getPluginClassAttr()
     {
@@ -93,7 +93,7 @@ public class PluginContext
      * <p>
      * May be null (in fact, normally will be).
      *
-     * @return the namespace for the XML attribute which indicates which class is to be plugged in.
+     * @return The namespace for the XML attribute which indicates which class is to be plugged in.
      */
     public String getPluginClassAttrNs()
     {
@@ -106,7 +106,7 @@ public class PluginContext
      * <p>
      * The return value is never null.
      *
-     * @return the namespace for the XML attribute which indicates which previous plugin declaration should be used.
+     * @return The namespace for the XML attribute which indicates which previous plugin declaration should be used.
      */
     public String getPluginIdAttr()
     {
@@ -119,7 +119,7 @@ public class PluginContext
      * <p>
      * May be null (in fact, normally will be).
      *
-     * @return the namespace for the XML attribute which indicates which previous plugin declaration should be used.
+     * @return The namespace for the XML attribute which indicates which previous plugin declaration should be used.
      */
     public String getPluginIdAttrNs()
     {
@@ -133,7 +133,7 @@ public class PluginContext
      * <p>
      * It is explicitly permitted for the caller to modify this list by inserting or removing RuleFinder objects.
      *
-     * @return the list of RuleFinder objects
+     * @return The list of RuleFinder objects
      */
     public List<RuleFinder> getRuleFinders()
     {

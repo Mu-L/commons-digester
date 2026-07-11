@@ -28,7 +28,7 @@ public class Entity
     private String author;
 
     /**
-     * @return the author.
+     * @return The author.
      */
     public String getAuthor()
     {

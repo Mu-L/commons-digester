@@ -45,7 +45,7 @@ public class RulesBaseTestCase
      * <p>
      * This should be overridden by subclasses.
      *
-     * @return the matching rules to be tested.
+     * @return The matching rules to be tested.
      */
     protected Rules createMatchingRulesForTest()
     {

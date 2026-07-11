@@ -79,7 +79,7 @@ public class RegexRules
     /**
      * Gets the current regex matching strategy.
      *
-     * @return the current regex matching strategy.
+     * @return The current regex matching strategy.
      */
     public RegexMatcher getRegexMatcher()
     {

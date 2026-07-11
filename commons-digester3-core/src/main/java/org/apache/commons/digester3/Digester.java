@@ -1158,7 +1158,7 @@ public class Digester
      * Create a SAX exception which also understands about the location in the digester file where the exception occurs
      *
      * @param e the exception cause
-     * @return the new SAX exception
+     * @return The new SAX exception
      */
     public SAXException createSAXException( Exception e )
     {
@@ -1177,7 +1177,7 @@ public class Digester
      * Create a SAX exception which also understands about the location in the digester file where the exception occurs
      *
      * @param message the custom SAX exception message
-     * @return the new SAX exception
+     * @return The new SAX exception
      */
     public SAXException createSAXException( final String message )
     {
@@ -1189,7 +1189,7 @@ public class Digester
      *
      * @param message the custom SAX exception message
      * @param e the exception cause
-     * @return the new SAX exception
+     * @return The new SAX exception
      */
     public SAXException createSAXException( final String message, Exception e )
     {
@@ -1423,7 +1423,7 @@ public class Digester
      * These mappings come and go dynamically as the document is parsed.
      *
      * @param prefix Prefix to look up
-     * @return the currently mapped namespace URI for the specified prefix
+     * @return The currently mapped namespace URI for the specified prefix
      */
     public String findNamespaceURI( final String prefix )
     {
@@ -1452,7 +1452,7 @@ public class Digester
      * <li>The class loader used to load the Digester class itself.</li>
      * </ul>
      *
-     * @return the class loader to be used for instantiating application objects.
+     * @return The class loader to be used for instantiating application objects.
      */
     public ClassLoader getClassLoader()
     {
@@ -1474,7 +1474,7 @@ public class Digester
     /**
      * Gets the current depth of the element stack.
      *
-     * @return the current depth of the element stack.
+     * @return The current depth of the element stack.
      */
     public int getCount()
     {
@@ -1484,7 +1484,7 @@ public class Digester
     /**
      * Gets the name of the XML element that is currently being processed.
      *
-     * @return the name of the XML element that is currently being processed.
+     * @return The name of the XML element that is currently being processed.
      */
     public String getCurrentElementName()
     {
@@ -1530,7 +1530,7 @@ public class Digester
     /**
      * returns the custom SAX ContentHandler where events are redirected.
      *
-     * @return the custom SAX ContentHandler where events are redirected.
+     * @return The custom SAX ContentHandler where events are redirected.
      * @see #setCustomContentHandler(ContentHandler)
      * @since 1.7
      */
@@ -1542,7 +1542,7 @@ public class Digester
     /**
      * Gets the document locator associated with our parser.
      *
-     * @return the Locator supplied by the document parser
+     * @return The Locator supplied by the document parser
      */
     public Locator getDocumentLocator()
     {
@@ -1552,7 +1552,7 @@ public class Digester
     /**
      * Gets the Entity Resolver used by the SAX parser.
      *
-     * @return the Entity Resolver used by the SAX parser.
+     * @return The Entity Resolver used by the SAX parser.
      */
     public EntityResolver getEntityResolver()
     {
@@ -1562,7 +1562,7 @@ public class Digester
     /**
      * Gets the error handler for this Digester.
      *
-     * @return the error handler for this Digester.
+     * @return The error handler for this Digester.
      */
     public ErrorHandler getErrorHandler()
     {
@@ -1572,7 +1572,7 @@ public class Digester
     /**
      * Returns the executor service used to run asynchronous parse method.
      *
-     * @return the executor service used to run asynchronous parse method
+     * @return The executor service used to run asynchronous parse method
      * @since 3.1
      */
     public ExecutorService getExecutorService()
@@ -1583,7 +1583,7 @@ public class Digester
     /**
      * Gets the SAXParserFactory we will use, creating one if necessary.
      *
-     * @return the SAXParserFactory we will use, creating one if necessary.
+     * @return The SAXParserFactory we will use, creating one if necessary.
      */
     public SAXParserFactory getFactory()
     {
@@ -1619,7 +1619,7 @@ public class Digester
     /**
      * Gets the current Logger associated with this instance of the Digester
      *
-     * @return the current Logger associated with this instance of the Digester
+     * @return The current Logger associated with this instance of the Digester
      */
     public Log getLogger()
     {
@@ -1629,7 +1629,7 @@ public class Digester
     /**
      * Gets the current rule match path
      *
-     * @return the current rule match path
+     * @return The current rule match path
      */
     public String getMatch()
     {
@@ -1652,7 +1652,7 @@ public class Digester
     /**
      * Gets the "namespace aware" flag for parsers we create.
      *
-     * @return the "namespace aware" flag for parsers we create.
+     * @return The "namespace aware" flag for parsers we create.
      */
     public boolean getNamespaceAware()
     {
@@ -1664,7 +1664,7 @@ public class Digester
      *
      * If there is a problem creating the parser, return {@code null}.
      *
-     * @return the SAXParser we will use to parse the input stream
+     * @return The SAXParser we will use to parse the input stream
      */
     public SAXParser getParser()
     {
@@ -1695,7 +1695,7 @@ public class Digester
      * properties.
      *
      * @param property Property name to be retrieved
-     * @return the current value of the specified property for the underlying {@code XMLReader} implementation.
+     * @return The current value of the specified property for the underlying {@code XMLReader} implementation.
      * @throws SAXNotRecognizedException if the property name is not recognized
      * @throws SAXNotSupportedException if the property name is recognized but not supported
      */
@@ -1708,7 +1708,7 @@ public class Digester
     /**
      * Gets the public identifier of the DTD we are currently parsing under, if any.
      *
-     * @return the public identifier of the DTD we are currently parsing under, if any.
+     * @return The public identifier of the DTD we are currently parsing under, if any.
      */
     public String getPublicId()
     {
@@ -1718,7 +1718,7 @@ public class Digester
     /**
      * Gets the set of DTD URL registrations, keyed by public identifier. NOTE: the returned map is in read-only mode.
      *
-     * @return the read-only Map of DTD URL registrations.
+     * @return The read-only Map of DTD URL registrations.
      */
     Map<String, URL> getRegistrations()
     {
@@ -1744,7 +1744,7 @@ public class Digester
      * created after parsing has completed.
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @return the root object that has been created after parsing or null if the digester has not parsed any XML yet.
+     * @return The root object that has been created after parsing or null if the digester has not parsed any XML yet.
      */
     public <T> T getRoot()
     {
@@ -1754,7 +1754,7 @@ public class Digester
     /**
      * Gets the namespace URI that will be applied to all subsequently added {@code Rule} objects.
      *
-     * @return the namespace URI that will be applied to all subsequently added {@code Rule} objects.
+     * @return The namespace URI that will be applied to all subsequently added {@code Rule} objects.
      */
     public String getRuleNamespaceURI()
     {
@@ -1765,7 +1765,7 @@ public class Digester
      * Gets the {@code Rules} implementation object containing our rules collection and associated matching
      * policy. If none has been established, a default implementation will be created and returned.
      *
-     * @return the {@code Rules} implementation object.
+     * @return The {@code Rules} implementation object.
      */
     public Rules getRules()
     {
@@ -1780,7 +1780,7 @@ public class Digester
     /**
      * Gets the logger used for logging SAX-related information. <strong>Note</strong> the output is finely grained.
      *
-     * @return the logger used for logging SAX-related information
+     * @return The logger used for logging SAX-related information
      * @since 1.6
      */
     public Log getSAXLogger()
@@ -1792,7 +1792,7 @@ public class Digester
      * Gets the callback object which is invoked whenever an object is pushed onto a digester object stack,
      * or popped off one.
      *
-     * @return the callback object which is invoked whenever an object is pushed onto a digester object stack,
+     * @return The callback object which is invoked whenever an object is pushed onto a digester object stack,
      *         or popped off one.
      * @see #setStackAction(StackAction)
      * @since 1.8
@@ -1805,7 +1805,7 @@ public class Digester
     /**
      * Gets the {@code Substitutor} used to convert attributes and body text.
      *
-     * @return the {@code Substitutor} used to convert attributes and body text,
+     * @return The {@code Substitutor} used to convert attributes and body text,
      *         null if not substitutions are to be performed.
      */
     public Substitutor getSubstitutor()
@@ -1826,7 +1826,7 @@ public class Digester
     /**
      * Gets the validating parser flag.
      *
-     * @return the validating parser flag.
+     * @return The validating parser flag.
      */
     public boolean getValidating()
     {
@@ -1851,7 +1851,7 @@ public class Digester
      *
      * FIXME: there is a bug in JAXP/XERCES that prevent the use of a parser that contains a schema with a DTD.
      *
-     * @return the XMLReader to be used for parsing the input document.
+     * @return The XMLReader to be used for parsing the input document.
      * @throws SAXException if no XMLReader can be instantiated
      */
     public XMLReader getXMLReader()
@@ -1976,7 +1976,7 @@ public class Digester
      *
      * @param <T> The type the input object has to be cast.
      * @param obj the object has to be cast.
-     * @return the casted object, if input object is not null, null otherwise.
+     * @return The casted object, if input object is not null, null otherwise.
      * @since 3.0
      */
     private <T> T npeSafeCast( final Object obj )
@@ -1998,7 +1998,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param file File containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      */
@@ -2022,7 +2022,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param input Input source containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      */
@@ -2062,7 +2062,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param input Input stream containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      */
@@ -2083,7 +2083,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param reader Reader containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      */
@@ -2104,7 +2104,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param uri URI containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      */
@@ -2125,7 +2125,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param url URL containing the XML data to be parsed
-     * @return the root element from the object stack (if any)
+     * @return The root element from the object stack (if any)
      * @throws IOException if an input/output error occurs
      * @throws SAXException if a parsing exception occurs
      * @since 1.8
@@ -2147,7 +2147,7 @@ public class Digester
      * If there are no objects on the stack, return {@code null}.
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @return the top object on the stack without removing it.
+     * @return The top object on the stack without removing it.
      */
     public <T> T peek()
     {
@@ -2168,7 +2168,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param n Index of the desired element, where 0 is the top of the stack, 1 is the next element down, and so on.
-     * @return the n'th object down the stack
+     * @return The n'th object down the stack
      */
     public <T> T peek( final int n )
     {
@@ -2199,7 +2199,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param stackName the name of the stack to be peeked
-     * @return the top {@code Object} on the stack or null if the stack is either empty or has not been created yet
+     * @return The top {@code Object} on the stack or null if the stack is either empty or has not been created yet
      * @since 1.6
      */
     public <T> T peek( final String stackName )
@@ -2218,7 +2218,7 @@ public class Digester
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param stackName the name of the stack to be peeked
      * @param n Index of the desired element, where 0 is the top of the stack, 1 is the next element down, and so on.
-     * @return the specified {@code Object} on the stack.
+     * @return The specified {@code Object} on the stack.
      * @since 1.6
      */
     public <T> T peek( final String stackName, final int n )
@@ -2253,7 +2253,7 @@ public class Digester
      * The parameters stack is used to store {@code CallMethodRule} parameters. See {@link #params}.
      * </p>
      *
-     * @return the top object on the parameters stack without removing it.
+     * @return The top object on the parameters stack without removing it.
      */
     public Object[] peekParams()
     {
@@ -2278,7 +2278,7 @@ public class Digester
      * </p>
      *
      * @param n Index of the desired element, where 0 is the top of the stack, 1 is the next element down, and so on.
-     * @return the n'th object down the parameters stack
+     * @return The n'th object down the parameters stack
      */
     public Object[] peekParams( final int n )
     {
@@ -2304,7 +2304,7 @@ public class Digester
      * {@code null}.
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @return the top object popped off of the stack
+     * @return The top object popped off of the stack
      */
     public <T> T pop()
     {
@@ -2334,7 +2334,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param stackName the name of the stack from which the top value is to be popped.
-     * @return the top {@code Object} on the stack or throws {@code EmptyStackException}
+     * @return The top {@code Object} on the stack or throws {@code EmptyStackException}
      *         if the stack is either empty or has not been created yet
      * @since 1.6
      */
@@ -2369,7 +2369,7 @@ public class Digester
      * The parameters stack is used to store {@code CallMethodRule} parameters. See {@link #params}.
      * </p>
      *
-     * @return the top object popped off of the parameters stack
+     * @return The top object popped off of the parameters stack
      */
     public Object[] popParams()
     {

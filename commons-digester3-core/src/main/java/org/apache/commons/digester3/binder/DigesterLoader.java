@@ -220,7 +220,7 @@ public final class DigesterLoader
     /**
      * Gets the document locator associated with our parser.
      *
-     * @return the Locator supplied by the document parser
+     * @return The Locator supplied by the document parser
      * @since 3.2
      */
     public Locator getDocumentLocator()
@@ -231,7 +231,7 @@ public final class DigesterLoader
     /**
      * Gets the error handler for this Digester.
      *
-     * @return the error handler for this Digester.
+     * @return The error handler for this Digester.
      * @since 3.2
      */
     public ErrorHandler getErrorHandler()
@@ -242,7 +242,7 @@ public final class DigesterLoader
     /**
      * Returns the executor service used to run asynchronous parse method.
      *
-     * @return the executor service used to run asynchronous parse method
+     * @return The executor service used to run asynchronous parse method
      * @since 3.1
      */
     public ExecutorService getExecutorService()
@@ -253,7 +253,7 @@ public final class DigesterLoader
     /**
      * Gets the set of DTD URL registrations, keyed by public identifier.
      *
-     * @return the set of DTD URL registrations.
+     * @return The set of DTD URL registrations.
      */
     public Map<String, URL> getRegistrations()
     {

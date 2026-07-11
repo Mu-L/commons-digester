@@ -49,7 +49,7 @@ public final class NestedPropertiesBuilder
      * Allows element2property mapping to be overridden.
      *
      * @param elementName The child XML element to match
-     * @return the property alias builder
+     * @return The property alias builder
      * @since 3.2
      */
     public AddAliasBuilder<NestedPropertiesBuilder> addAlias( final String elementName )

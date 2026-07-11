@@ -49,7 +49,7 @@ public interface RuleSet
     /**
      * Gets the namespace URI that will be applied to all Rule instances created from this RuleSet.
      *
-     * @return the namespace URI that will be applied to all Rule instances created from this RuleSet
+     * @return The namespace URI that will be applied to all Rule instances created from this RuleSet
      */
     String getNamespaceURI();
 

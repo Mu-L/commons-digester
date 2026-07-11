@@ -45,7 +45,7 @@ public final class SetPropertiesBuilder
      * Add an additional attribute name to property name mapping.
      *
      * @param attributeName The attribute to match
-     * @return the property alias builder
+     * @return The property alias builder
      * @since 3.2
      */
     public AddAliasBuilder<SetPropertiesBuilder> addAlias( final String attributeName )

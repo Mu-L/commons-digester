@@ -160,7 +160,7 @@ final class FromBinderRuleSet
      * @param keyPattern the rule pattern
      * @param namespaceURI the namespace URI (can be null)
      * @param type the rule builder type the client is looking for
-     * @return the rule builder of input type, if any
+     * @return The rule builder of input type, if any
      */
     public <R extends Rule, RB extends AbstractBackToLinkedRuleBuilder<R>> RB getProvider( final String keyPattern,
     /* @Nullable */final String namespaceURI, final Class<RB> type )

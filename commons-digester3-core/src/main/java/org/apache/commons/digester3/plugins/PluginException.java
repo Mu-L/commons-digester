@@ -60,7 +60,7 @@ public class PluginException
     }
 
     /**
-     * @return the underlying exception that caused this to be thrown
+     * @return The underlying exception that caused this to be thrown
      */
     @Override
     public Throwable getCause()

@@ -124,7 +124,7 @@ import org.xml.sax.Attributes;
     /**
      * Gets the Digester with which this Rule is associated.
      *
-     * @return the Digester with which this Rule is associated
+     * @return The Digester with which this Rule is associated
      */
     public Digester getDigester()
     {
@@ -134,7 +134,7 @@ import org.xml.sax.Attributes;
     /**
      * Gets the namespace URI for which this Rule is relevant, if any.
      *
-     * @return the namespace URI for which this Rule is relevant, if any
+     * @return The namespace URI for which this Rule is relevant, if any
      */
     public String getNamespaceURI()
     {

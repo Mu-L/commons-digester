@@ -107,7 +107,7 @@ public final class MethodArgument
     /**
      * Returns the method argument index.
      *
-     * @return the method argument index.
+     * @return The method argument index.
      */
     public int getIndex()
     {
@@ -117,7 +117,7 @@ public final class MethodArgument
     /**
      * Returns the method argument type.
      *
-     * @return the method argument type.
+     * @return The method argument type.
      */
     public Class<?> getParameterType()
     {
