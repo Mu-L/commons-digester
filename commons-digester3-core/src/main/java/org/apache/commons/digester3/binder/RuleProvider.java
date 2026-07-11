@@ -33,7 +33,7 @@ public interface RuleProvider<R extends Rule>
     /**
      * Provides an instance of {@link Rule}. Must never return null.
      *
-     * @return an instance of {@link Rule}.
+     * @return An instance of {@link Rule}.
      */
     R get();
 

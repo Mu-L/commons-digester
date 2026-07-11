@@ -62,7 +62,7 @@ public class VariableExpansionTestCase
     /**
      * Creates a Digester configured to show Ant-like capability.
      *
-     * @return a Digester with rules and variable substitutor
+     * @return A Digester with rules and variable substitutor
      */
     private Digester createDigesterThatCanDoAnt()
     {

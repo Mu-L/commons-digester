@@ -68,7 +68,7 @@ public interface Rules
      * @param pattern Nesting pattern to be matched
      * @param name the local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of the current matching element
-     * @return a List of all registered Rule instances that match the specified nesting pattern
+     * @return A List of all registered Rule instances that match the specified nesting pattern
      */
     List<Rule> match( String namespaceURI, String pattern, String name, Attributes attributes );
 
@@ -77,7 +77,7 @@ public interface Rules
      * If more than one Rule instance has been registered, they <strong>must</strong> be returned in the order
      * originally registered through the {@code add()} method.
      *
-     * @return a List of all registered Rule instances
+     * @return A List of all registered Rule instances
      */
     List<Rule> rules();
 

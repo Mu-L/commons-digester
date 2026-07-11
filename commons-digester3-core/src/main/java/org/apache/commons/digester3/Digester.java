@@ -895,7 +895,7 @@ public class Digester
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
      * @param callable
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @since 3.1
      */
     private <T> Future<T> asyncParse( final Callable<T> callable )
@@ -913,7 +913,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param file File containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(File)
      * @since 3.1
      */
@@ -927,7 +927,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param input Input source containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(InputSource)
      * @since 3.1
      */
@@ -941,7 +941,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param input Input stream containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(InputStream)
      * @since 3.1
      */
@@ -955,7 +955,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param reader Reader containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(Reader)
      * @since 3.1
      */
@@ -969,7 +969,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param uri URI containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(String)
      * @since 3.1
      */
@@ -983,7 +983,7 @@ public class Digester
      *
      * @param <T> The result type returned by the returned Future's {@code get} method
      * @param url URL containing the XML data to be parsed
-     * @return a Future that can be used to track when the parse has been fully processed.
+     * @return A Future that can be used to track when the parse has been fully processed.
      * @see Digester#parse(URL)
      * @since 3.1
      */
@@ -1640,7 +1640,7 @@ public class Digester
      * Gets a Stack whose elements are List objects, each containing a list of
      * Rule objects as returned from Rules.getMatch().
      *
-     * @return a Stack whose elements are List objects, each containing a list of
+     * @return A Stack whose elements are List objects, each containing a list of
      *         Rule objects as returned from Rules.getMatch().
      * @since 3.0
      */

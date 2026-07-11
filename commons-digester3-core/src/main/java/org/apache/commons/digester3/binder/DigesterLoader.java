@@ -294,7 +294,7 @@ public final class DigesterLoader
     /**
      * Creates a new {@link Digester} instance that relies on the default {@link Rules} implementation.
      *
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester()
     {
@@ -305,7 +305,7 @@ public final class DigesterLoader
      * Creates a new {@link Digester} instance that relies on the custom user define {@link Rules} implementation
      *
      * @param rules The custom user define {@link Rules} implementation
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester( final Rules rules )
     {
@@ -328,7 +328,7 @@ public final class DigesterLoader
      * and the default {@link Rules} implementation.
      *
      * @param parser the user-defined {@code SAXParser}
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester( final SAXParser parser )
     {
@@ -341,7 +341,7 @@ public final class DigesterLoader
      *
      * @param parser The user-defined {@code SAXParser}
      * @param rules The custom user define {@link Rules} implementation
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester( final SAXParser parser, final Rules rules )
     {
@@ -368,7 +368,7 @@ public final class DigesterLoader
      * to <strong>NOT</strong> share same {@link XMLReader} instance to produce the Digester.
      *
      * @param reader The user-defined {@code XMLReader}
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester( final XMLReader reader )
     {
@@ -384,7 +384,7 @@ public final class DigesterLoader
      *
      * @param reader The user-defined {@code XMLReader}
      * @param rules The custom user define {@link Rules} implementation
-     * @return a new {@link Digester} instance
+     * @return A new {@link Digester} instance
      */
     public Digester newDigester( final XMLReader reader, final Rules rules )
     {

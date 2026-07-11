@@ -84,7 +84,7 @@ public class RulesBase
      * @param namespaceURI Namespace URI to match, or {@code null} to select matching rules regardless of namespace
      *            URI
      * @param pattern Pattern to be matched
-     * @return a List of Rule instances for the specified pattern that also match the specified namespace URI (if any)
+     * @return A List of Rule instances for the specified pattern that also match the specified namespace URI (if any)
      */
     protected List<Rule> lookup( final String namespaceURI, final String pattern )
     {

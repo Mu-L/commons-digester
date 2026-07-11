@@ -91,7 +91,7 @@ public final class MethodArgument
     /**
      * Returns an annotations array, copy of the declared annotations in this method argument.
      *
-     * @return an annotations array, copy of the declared annotations in this method argument.
+     * @return An annotations array, copy of the declared annotations in this method argument.
      */
     private Annotation[] getAnnotationsArrayCopy()
     {
