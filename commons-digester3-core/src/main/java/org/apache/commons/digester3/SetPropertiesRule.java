@@ -145,8 +145,8 @@ public class SetPropertiesRule
     /**
      * Add an additional attribute name to property name mapping. This is intended to be used from the XML rules.
      *
-     * @param attributeName the attribute name has to be mapped
-     * @param propertyName the target property name
+     * @param attributeName The attribute name has to be mapped
+     * @param propertyName The target property name
      */
     public void addAlias( final String attributeName, final String propertyName )
     {

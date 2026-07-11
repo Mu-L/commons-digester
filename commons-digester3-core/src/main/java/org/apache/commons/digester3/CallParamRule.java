@@ -99,7 +99,7 @@ public class CallParamRule
      * then the parameter will be set to null.
      *
      * @param paramIndex The zero-relative parameter number
-     * @param stackIndex the index of the object which will be passed as a parameter. The zeroth object is the top of
+     * @param stackIndex The index of the object which will be passed as a parameter. The zeroth object is the top of
      *            the stack, 1 is the next object down and so on.
      */
     public CallParamRule( final int paramIndex, final int stackIndex )

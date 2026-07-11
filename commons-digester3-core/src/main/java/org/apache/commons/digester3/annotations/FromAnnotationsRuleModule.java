@@ -53,7 +53,7 @@ public abstract class FromAnnotationsRuleModule
     /**
      * Scan the input Class, looking for Digester rules expressed via annotations, and binds them.
      *
-     * @param type the type has to be analyzed
+     * @param type The type has to be analyzed
      * @see DigesterRule
      */
     protected final void bindRulesFrom( final Class<?> type )
@@ -110,8 +110,8 @@ public abstract class FromAnnotationsRuleModule
      * Handles the current visited element and related annotation, invoking the
      * right handler putting the rule provider in the rule set.
      *
-     * @param annotation the current visited annotation.
-     * @param element the current visited element.
+     * @param annotation The current visited annotation.
+     * @param element The current visited element.
      */
     @SuppressWarnings( "unchecked" )
     private <A extends Annotation, E extends AnnotatedElement, R extends Rule> void handle( final A annotation, final E element )

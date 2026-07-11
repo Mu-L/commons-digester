@@ -32,10 +32,10 @@ public interface RuleMatcher
     /**
      * Use the specified parameter to perform a test.
      *
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
      * @param pattern Nesting pattern to be matched for this Rule
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of this element
      * @return true, if the test succeeds, false otherwise
      */

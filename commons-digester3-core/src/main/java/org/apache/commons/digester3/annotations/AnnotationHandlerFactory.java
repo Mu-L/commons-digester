@@ -34,7 +34,7 @@ public interface AnnotationHandlerFactory
      * Return an instance of the specified type.
      *
      * @param <H> The {@link AnnotationHandler} type has to be created
-     * @param type the class of the object to be returned.
+     * @param type The class of the object to be returned.
      * @return An instance of the specified class.
      * @throws Exception if any error occurs while creating the {@link AnnotationHandler} instance.
      */

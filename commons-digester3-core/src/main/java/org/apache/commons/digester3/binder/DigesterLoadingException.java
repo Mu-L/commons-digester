@@ -36,7 +36,7 @@ public final class DigesterLoadingException
     /**
      * Constructs a new Digester exception with the specified detail message.
      *
-     * @param message the detail message.
+     * @param message The detail message.
      */
     public DigesterLoadingException( final String message )
     {
@@ -46,8 +46,8 @@ public final class DigesterLoadingException
     /**
      * Constructs a new exception with the specified detail message and cause.
      *
-     * @param message the detail message.
-     * @param cause the cause.
+     * @param message The detail message.
+     * @param cause The cause.
      */
     public DigesterLoadingException( final String message, final Throwable cause )
     {
@@ -57,7 +57,7 @@ public final class DigesterLoadingException
     /**
      * Constructs a new exception with the specified cause.
      *
-     * @param cause the cause.
+     * @param cause The cause.
      */
     public DigesterLoadingException( final Throwable cause )
     {

@@ -157,9 +157,9 @@ final class FromBinderRuleSet
      *
      * @param <R> The Digester rule type
      * @param <RB> The Digester rule builder type
-     * @param keyPattern the rule pattern
-     * @param namespaceURI the namespace URI (can be null)
-     * @param type the rule builder type the client is looking for
+     * @param keyPattern The rule pattern
+     * @param namespaceURI The namespace URI (can be null)
+     * @param type The rule builder type the client is looking for
      * @return The rule builder of input type, if any
      */
     public <R extends Rule, RB extends AbstractBackToLinkedRuleBuilder<R>> RB getProvider( final String keyPattern,

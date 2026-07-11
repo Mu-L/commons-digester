@@ -167,7 +167,7 @@ public final class DigesterLoader
     /**
      * Add rules to an already created Digester instance, analyzing the digester annotations in the target class.
      *
-     * @param digester the Digester instance reference.
+     * @param digester The Digester instance reference.
      */
     public void addRules( final Digester digester )
     {
@@ -327,7 +327,7 @@ public final class DigesterLoader
      * Creates a new {@link Digester} instance that relies on the given {@code SAXParser}
      * and the default {@link Rules} implementation.
      *
-     * @param parser the user-defined {@code SAXParser}
+     * @param parser The user-defined {@code SAXParser}
      * @return A new {@link Digester} instance
      */
     public Digester newDigester( final SAXParser parser )
@@ -466,7 +466,7 @@ public final class DigesterLoader
     /**
      * Sets the class loader to be used for instantiating application objects when required.
      *
-     * @param classLoader the class loader to be used for instantiating application objects when required.
+     * @param classLoader The class loader to be used for instantiating application objects when required.
      * @return This loader instance, useful to chain methods.
      */
     public DigesterLoader setClassLoader( final ClassLoader classLoader )
@@ -490,7 +490,7 @@ public final class DigesterLoader
     /**
      * Sets the document locator associated with our parser.
      *
-     * @param locator the document locator associated with our parser.
+     * @param locator The document locator associated with our parser.
      * @return This loader instance, useful to chain methods.
      * @since 3.2
      */
@@ -504,7 +504,7 @@ public final class DigesterLoader
      * Sets the {@code EntityResolver} used by SAX when resolving public id and system id. This must be called
      * before the first call to {@code parse()}.
      *
-     * @param entityResolver a class that implement the {@code EntityResolver} interface.
+     * @param entityResolver A class that implement the {@code EntityResolver} interface.
      * @return This loader instance, useful to chain methods.
      */
     public DigesterLoader setEntityResolver( final EntityResolver entityResolver )
@@ -529,7 +529,7 @@ public final class DigesterLoader
     /**
      * Sets the executor service to run asynchronous parse method.
      *
-     * @param executorService the executor service to run asynchronous parse method
+     * @param executorService The executor service to run asynchronous parse method
      * @return This loader instance, useful to chain methods.
      * @since 3.1
      */
@@ -586,7 +586,7 @@ public final class DigesterLoader
     /**
      * Sets the Object which will receive callbacks for every pop/push action on the default stack or named stacks.
      *
-     * @param stackAction the Object which will receive callbacks for every pop/push action on the default stack
+     * @param stackAction The Object which will receive callbacks for every pop/push action on the default stack
      *        or named stacks.
      * @return This loader instance, useful to chain methods.
      */
@@ -599,7 +599,7 @@ public final class DigesterLoader
     /**
      * Sets the {@code Substitutor} to be used to convert attributes and body text.
      *
-     * @param substitutor the Substitutor to be used to convert attributes and body text
+     * @param substitutor The Substitutor to be used to convert attributes and body text
      *        or null if not substitution of these values is to be performed.
      * @return This loader instance, useful to chain methods.
      */

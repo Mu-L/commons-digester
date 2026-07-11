@@ -31,8 +31,8 @@ public abstract class RegexMatcher
      * Returns true if the given pattern matches the given path according to the regex algorithm that this strategy
      * applies.
      *
-     * @param pathPattern the standard digester path representing the element
-     * @param rulePattern the regex pattern the path will be tested against
+     * @param pathPattern The standard digester path representing the element
+     * @param rulePattern The regex pattern the path will be tested against
      * @return true if the given pattern matches the given path
      */
     public abstract boolean match( String pathPattern, String rulePattern );

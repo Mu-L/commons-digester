@@ -42,7 +42,7 @@ public class PluginDeclarationRule
      * Helper method to declare a plugin inside the given Digester.
      *
      * @param digester The Digester instance to declare plugin
-     * @param props the properties where extracting plugin attributes
+     * @param props The properties where extracting plugin attributes
      * @throws PluginException if any error occurs while declaring the plugin
      */
     public static void declarePlugin( final Digester digester, final Properties props )

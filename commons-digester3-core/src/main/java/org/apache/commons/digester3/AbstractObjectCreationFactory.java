@@ -38,7 +38,7 @@ public abstract class AbstractObjectCreationFactory<T>
     /**
      * Factory method called by {@link FactoryCreateRule} to supply an object based on the element's attributes.
      *
-     * @param attributes the element's attributes
+     * @param attributes The element's attributes
      * @return creates a new T instance
      * @throws Exception any exception thrown will be propagated upwards
      */

@@ -63,7 +63,7 @@ public class RegexRules
     /**
      * Constructs sets the Regex matching strategy.
      *
-     * @param matcher the regex strategy to be used, not null
+     * @param matcher The regex strategy to be used, not null
      */
     public RegexRules( final RegexMatcher matcher )
     {

@@ -64,7 +64,7 @@ public interface RulesBinder
     /**
      * Allows sub-modules inclusion while binding rules.
      *
-     * @param rulesModule the sub-module has to be included.
+     * @param rulesModule The sub-module has to be included.
      */
     void install( RulesModule rulesModule );
 

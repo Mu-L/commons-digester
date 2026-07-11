@@ -107,7 +107,7 @@ public final class PluginCreateRuleBuilder
      * Sets the class which any specified plugin <em>must</em> be descended from.
      *
      * @param <T> Any Java type
-     * @param type the class which any specified plugin <em>must</em> be descended from
+     * @param type The class which any specified plugin <em>must</em> be descended from
      * @return this builder instance
      */
     public <T> PluginCreateRuleBuilder ofType( final Class<T> type )
@@ -127,7 +127,7 @@ public final class PluginCreateRuleBuilder
      * Sets the XML attribute which the input XML uses to indicate to a
      * PluginCreateRule which class should be instantiated.
      *
-     * @param attrName the XML attribute which the input XML uses to indicate to a
+     * @param attrName The XML attribute which the input XML uses to indicate to a
      *                 PluginCreateRule which class should be instantiated.
      * @return this builder instance
      */
@@ -203,7 +203,7 @@ public final class PluginCreateRuleBuilder
      * Sets the class which will be used if the user doesn't specify any plugin-class or plugin-id.
      *
      * @param <T> Any Java type
-     * @param type the class which will be used if the user doesn't specify any plugin-class or plugin-id.
+     * @param type The class which will be used if the user doesn't specify any plugin-class or plugin-id.
      * @return this builder instance
      */
     public <T> PluginCreateRuleBuilder usingDefaultPluginClass( /* @Nullable */final Class<T> type )
@@ -216,7 +216,7 @@ public final class PluginCreateRuleBuilder
      * Sets RuleLoader instance which knows how to load the custom rules associated with the default plugin.
      *
      * @param <RL> Any {@link RuleLoader} extension.
-     * @param ruleLoader the RuleLoader instance which knows how to load the custom rules associated with
+     * @param ruleLoader The RuleLoader instance which knows how to load the custom rules associated with
      *        the default plugin.
      * @return this builder instance
      */

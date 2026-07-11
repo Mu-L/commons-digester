@@ -458,7 +458,7 @@ public class Digester
      * Add a "call parameter" rule that sets a parameter from the current {@code Digester} matching path. This is
      * sometimes useful when using rules that support wildcards.
      *
-     * @param pattern the pattern that this rule should match
+     * @param pattern The pattern that this rule should match
      * @param paramIndex The zero-relative parameter number
      * @see CallMethodRule
      */
@@ -1157,7 +1157,7 @@ public class Digester
     /**
      * Create a SAX exception which also understands about the location in the digester file where the exception occurs
      *
-     * @param e the exception cause
+     * @param e The exception cause
      * @return The new SAX exception
      */
     public SAXException createSAXException( Exception e )
@@ -1176,7 +1176,7 @@ public class Digester
     /**
      * Create a SAX exception which also understands about the location in the digester file where the exception occurs
      *
-     * @param message the custom SAX exception message
+     * @param message The custom SAX exception message
      * @return The new SAX exception
      */
     public SAXException createSAXException( final String message )
@@ -1187,8 +1187,8 @@ public class Digester
     /**
      * Create a SAX exception which also understands about the location in the digester file where the exception occurs
      *
-     * @param message the custom SAX exception message
-     * @param e the exception cause
+     * @param message The custom SAX exception message
+     * @param e The exception cause
      * @return The new SAX exception
      */
     public SAXException createSAXException( final String message, Exception e )
@@ -1947,7 +1947,7 @@ public class Digester
      * <strong>Note:</strong> a stack is considered empty if no objects have been pushed onto it yet.
      * </p>
      *
-     * @param stackName the name of the stack whose emptiness should be evaluated
+     * @param stackName The name of the stack whose emptiness should be evaluated
      * @return true if the given stack if empty
      * @since 1.6
      */
@@ -1975,7 +1975,7 @@ public class Digester
      * Helps casting the input object to given type, avoiding NPEs.
      *
      * @param <T> The type the input object has to be cast.
-     * @param obj the object has to be cast.
+     * @param obj The object has to be cast.
      * @return The casted object, if input object is not null, null otherwise.
      * @since 3.0
      */
@@ -2198,7 +2198,7 @@ public class Digester
      * </p>
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @param stackName the name of the stack to be peeked
+     * @param stackName The name of the stack to be peeked
      * @return The top {@code Object} on the stack or null if the stack is either empty or has not been created yet
      * @since 1.6
      */
@@ -2216,7 +2216,7 @@ public class Digester
      * </p>
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @param stackName the name of the stack to be peeked
+     * @param stackName The name of the stack to be peeked
      * @param n Index of the desired element, where 0 is the top of the stack, 1 is the next element down, and so on.
      * @return The specified {@code Object} on the stack.
      * @since 1.6
@@ -2333,7 +2333,7 @@ public class Digester
      * </p>
      *
      * @param <T> The type used to auto-cast the returned object to the assigned variable type
-     * @param stackName the name of the stack from which the top value is to be popped.
+     * @param stackName The name of the stack from which the top value is to be popped.
      * @return The top {@code Object} on the stack or throws {@code EmptyStackException}
      *         if the stack is either empty or has not been created yet
      * @since 1.6
@@ -2412,8 +2412,8 @@ public class Digester
      * one will be created.
      *
      * @param <T> any type of the pushed object
-     * @param stackName the name of the stack onto which the object should be pushed
-     * @param value the Object to be pushed onto the named stack.
+     * @param stackName The name of the stack onto which the object should be pushed
+     * @param value The Object to be pushed onto the named stack.
      * @since 1.6
      */
     public <T> void push( final String stackName, T value )
@@ -2654,7 +2654,7 @@ public class Digester
      * at the digester level.</li>
      * </ul>
      *
-     * @param handler the custom SAX ContentHandler where events are redirected.
+     * @param handler The custom SAX ContentHandler where events are redirected.
      * @since 1.7
      */
     public void setCustomContentHandler( final ContentHandler handler )
@@ -2677,7 +2677,7 @@ public class Digester
      * Sets the {@code EntityResolver} used by SAX when resolving public id and system id. This must be called
      * before the first call to {@code parse()}.
      *
-     * @param entityResolver a class that implement the {@code EntityResolver} interface.
+     * @param entityResolver A class that implement the {@code EntityResolver} interface.
      */
     public void setEntityResolver( final EntityResolver entityResolver )
     {
@@ -2697,7 +2697,7 @@ public class Digester
     /**
      * Sets the executor service to run asynchronous parse method.
      *
-     * @param executorService the executor service to run asynchronous parse method
+     * @param executorService The executor service to run asynchronous parse method
      * @since 3.1
      */
     public void setExecutorService( final ExecutorService executorService )
@@ -2727,7 +2727,7 @@ public class Digester
     /**
      * Sets the current logger for this Digester.
      *
-     * @param log the current logger for this Digester.
+     * @param log The current logger for this Digester.
      */
     public void setLogger( final Log log )
     {
@@ -2762,7 +2762,7 @@ public class Digester
     /**
      * Sets the public id of the current file being parse.
      *
-     * @param publicId the DTD/Schema public's id.
+     * @param publicId The DTD/Schema public's id.
      */
     public void setPublicId( final String publicId )
     {
@@ -2794,7 +2794,7 @@ public class Digester
     /**
      * Sets the logger used for logging SAX-related information. <strong>Note</strong> the output is finely grained.
      *
-     * @param saxLog the logger used for logging SAX-related information, not null
+     * @param saxLog The logger used for logging SAX-related information, not null
      * @since 1.6
      */
     public void setSAXLogger( final Log saxLog )
@@ -2806,7 +2806,7 @@ public class Digester
      * Define a callback object which is invoked whenever an object is pushed onto a digester object stack,
      * or popped off one.
      *
-     * @param stackAction the callback object which is invoked whenever an object is pushed onto a digester
+     * @param stackAction The callback object which is invoked whenever an object is pushed onto a digester
      *        object stack, or popped off one.
      * @since 1.8
      */
@@ -2818,7 +2818,7 @@ public class Digester
     /**
      * Sets the {@code Substitutor} to be used to convert attributes and body text.
      *
-     * @param substitutor the Substitutor to be used to convert attributes and body text or null if not substitution of
+     * @param substitutor The Substitutor to be used to convert attributes and body text or null if not substitution of
      *            these values is to be performed.
      */
     public void setSubstitutor( final Substitutor substitutor )

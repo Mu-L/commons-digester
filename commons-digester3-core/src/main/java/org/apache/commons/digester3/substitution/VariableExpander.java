@@ -35,7 +35,7 @@ public interface VariableExpander
      * Return the input string with any variables replaced by their corresponding value. If there are no variables in
      * the string, then the input parameter is returned unaltered.
      *
-     * @param param the string containing variables to be replaced.
+     * @param param The string containing variables to be replaced.
      * @return The input string with any variables replaced by their corresponding value.
      */
     String expand( String param );

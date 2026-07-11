@@ -83,7 +83,7 @@ public class PluginManager
      * TODO: somehow get a reference to a Digester object so that we can really log here. Currently, all logging is
      * disabled from this method.
      *
-     * @param decl an object representing a plugin class.
+     * @param decl An object representing a plugin class.
      */
     public void addDeclaration( final Declaration decl )
     {

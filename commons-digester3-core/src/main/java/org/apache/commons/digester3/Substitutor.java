@@ -50,7 +50,7 @@ public abstract class Substitutor
      * all calls.
      * </p>
      *
-     * @param attributes the {@code Attributes} passed into {@code Digester} by the SAX parser, not null (but
+     * @param attributes The {@code Attributes} passed into {@code Digester} by the SAX parser, not null (but
      *            may be empty)
      * @return {@code Attributes} to be passed to the {@code Rule} implementations. This method may pass back
      *         the Attributes passed in. Not null but possibly empty.
@@ -61,7 +61,7 @@ public abstract class Substitutor
      * Substitutes for the body text. This method may substitute values into the body text of the elements that Digester
      * parses.
      *
-     * @param bodyText the body text (as passed to {@code Digester})
+     * @param bodyText The body text (as passed to {@code Digester})
      * @return The body text to be passed to the {@code Rule} implementations
      */
     public abstract String substitute( String bodyText );

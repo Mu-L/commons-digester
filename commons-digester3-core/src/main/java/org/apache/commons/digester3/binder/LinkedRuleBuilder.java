@@ -338,7 +338,7 @@ public final class LinkedRuleBuilder
     /**
      * Sets the namespace URI for the current rule pattern.
      *
-     * @param namespaceURI the namespace URI associated to the rule pattern.
+     * @param namespaceURI The namespace URI associated to the rule pattern.
      * @return this {@link LinkedRuleBuilder} instance
      */
     public LinkedRuleBuilder withNamespaceURI( /* @Nullable */final String namespaceURI )

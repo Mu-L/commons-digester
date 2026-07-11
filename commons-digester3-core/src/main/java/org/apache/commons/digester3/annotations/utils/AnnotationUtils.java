@@ -70,7 +70,7 @@ public class AnnotationUtils
     /**
      * Extract the {@code pattern()} from annotation.
      *
-     * @param annotation the annotation has to be introspected.
+     * @param annotation The annotation has to be introspected.
      * @return The annotation {@code pattern()}.
      */
     public static String getAnnotationPattern( final Annotation annotation )
@@ -86,7 +86,7 @@ public class AnnotationUtils
     /**
      * Extract the Annotations array {@code value()} from annotation if present, nul otherwise.
      *
-     * @param annotation the annotation has to be introspected.
+     * @param annotation The annotation has to be introspected.
      * @return The annotation {@code value()} as Annotations array.
      */
     public static Annotation[] getAnnotationsArrayValue( final Annotation annotation )
@@ -103,7 +103,7 @@ public class AnnotationUtils
     /**
      * Extract the {@code value()} from annotation.
      *
-     * @param annotation the annotation has to be introspected.
+     * @param annotation The annotation has to be introspected.
      * @return The annotation {@code value()}.
      */
     public static Object getAnnotationValue( final Annotation annotation )
@@ -130,8 +130,8 @@ public class AnnotationUtils
     /**
      * Invokes an annotation method.
      *
-     * @param annotation the annotation has to be introspected.
-     * @param method the method name to execute.
+     * @param annotation The annotation has to be introspected.
+     * @param method The method name to execute.
      * @return The annotation method value, null if any error occurs.
      */
     private static Object invokeAnnotationMethod( final Annotation annotation, final String method )

@@ -62,7 +62,7 @@ public class ObjectParamRule
      * Constructs a "call parameter" rule that will save the given Object as the parameter value.
      *
      * @param paramIndex The zero-relative parameter number
-     * @param param the parameter to pass along
+     * @param param The parameter to pass along
      */
     public ObjectParamRule( final int paramIndex, final Object param )
     {
@@ -75,7 +75,7 @@ public class ObjectParamRule
      *
      * @param paramIndex The zero-relative parameter number
      * @param attributeName The name of the attribute to match
-     * @param param the parameter to pass along
+     * @param param The parameter to pass along
      */
     public ObjectParamRule( final int paramIndex, final String attributeName, final Object param )
     {

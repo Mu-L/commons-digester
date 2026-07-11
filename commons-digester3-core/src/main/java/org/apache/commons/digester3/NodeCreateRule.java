@@ -109,8 +109,8 @@ public class NodeCreateRule
          * objects needed to build the node.
          * </p>
          *
-         * @param doc the document to use to create nodes
-         * @param root the root node
+         * @param doc The document to use to create nodes
+         * @param root The root node
          * @throws ParserConfigurationException if the DocumentBuilderFactory could not be instantiated
          * @throws SAXException if the XMLReader could not be instantiated by Digester (should not happen)
          */
@@ -168,9 +168,9 @@ public class NodeCreateRule
          * is found, or a child element is found then we can check whether we have all-whitespace. See method
          * addTextIfPresent.
          *
-         * @param ch the characters from the XML document
-         * @param start the start position in the array
-         * @param length the number of characters to read from the array
+         * @param ch The characters from the XML document
+         * @param start The start position in the array
+         * @param length The number of characters to read from the array
          * @throws SAXException if the DOM implementation throws an exception
          */
         @Override
@@ -183,9 +183,9 @@ public class NodeCreateRule
         /**
          * Checks whether control needs to be returned to Digester.
          *
-         * @param namespaceURI the namespace URI
-         * @param localName the local name
-         * @param qName the qualified (prefixed) name
+         * @param namespaceURI The namespace URI
+         * @param localName The local name
+         * @param qName The qualified (prefixed) name
          * @throws SAXException if the DOM implementation throws an exception
          */
         @Override
@@ -215,8 +215,8 @@ public class NodeCreateRule
         /**
          * Adds a new {@link org.w3c.dom.ProcessingInstruction ProcessingInstruction} to the current node.
          *
-         * @param target the processing instruction target
-         * @param data the processing instruction data, or null if none was supplied
+         * @param target The processing instruction target
+         * @param data The processing instruction data, or null if none was supplied
          * @throws SAXException if the DOM implementation throws an exception
          */
         @Override
@@ -236,10 +236,10 @@ public class NodeCreateRule
         /**
          * Adds a new child {@link org.w3c.dom.Element Element} to the current node.
          *
-         * @param namespaceURI the namespace URI
-         * @param localName the local name
-         * @param qName the qualified (prefixed) name
-         * @param atts the list of attributes
+         * @param namespaceURI The namespace URI
+         * @param localName The local name
+         * @param qName The qualified (prefixed) name
+         * @param atts The list of attributes
          * @throws SAXException if the DOM implementation throws an exception
          */
         @Override
@@ -314,7 +314,7 @@ public class NodeCreateRule
      * Constructs a new instance. Creates an instance of this rule that will create a DOM {@link org.w3c.dom.Element Element}, but
      * lets you specify the JAXP {@code DocumentBuilder} that should be used when constructing the node tree.
      *
-     * @param documentBuilder the JAXP {@code DocumentBuilder} to use
+     * @param documentBuilder The JAXP {@code DocumentBuilder} to use
      */
     public NodeCreateRule( final DocumentBuilder documentBuilder )
     {
@@ -326,7 +326,7 @@ public class NodeCreateRule
      * or a DOM {@link org.w3c.dom.DocumentFragment DocumentFragment}, depending on the value of the
      * {@code nodeType} parameter.
      *
-     * @param nodeType the type of node to create, which can be either {@link org.w3c.dom.Node#ELEMENT_NODE
+     * @param nodeType The type of node to create, which can be either {@link org.w3c.dom.Node#ELEMENT_NODE
      *            Node.ELEMENT_NODE} or {@link org.w3c.dom.Node#DOCUMENT_FRAGMENT_NODE Node.DOCUMENT_FRAGMENT_NODE}
      * @throws ParserConfigurationException if a DocumentBuilder cannot be created which satisfies the
      *         configuration requested.
@@ -344,9 +344,9 @@ public class NodeCreateRule
      * {@code nodeType} parameter. This constructor lets you specify the JAXP {@code DocumentBuilder} that
      * should be used when constructing the node tree.
      *
-     * @param nodeType the type of node to create, which can be either {@link org.w3c.dom.Node#ELEMENT_NODE
+     * @param nodeType The type of node to create, which can be either {@link org.w3c.dom.Node#ELEMENT_NODE
      *            Node.ELEMENT_NODE} or {@link org.w3c.dom.Node#DOCUMENT_FRAGMENT_NODE Node.DOCUMENT_FRAGMENT_NODE}
-     * @param documentBuilder the JAXP {@code DocumentBuilder} to use
+     * @param documentBuilder The JAXP {@code DocumentBuilder} to use
      */
     public NodeCreateRule( final int nodeType, final DocumentBuilder documentBuilder )
     {
@@ -364,9 +364,9 @@ public class NodeCreateRule
      * XML element is encountered, the original content handler is restored (expected to be NULL, allowing normal
      * Digester operations to continue).
      *
-     * @param namespaceURI the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespaceURI The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of this element
      * @throws Exception indicates a JAXP configuration problem
      */

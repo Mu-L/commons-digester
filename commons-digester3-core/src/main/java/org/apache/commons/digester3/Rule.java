@@ -65,9 +65,9 @@ import org.xml.sax.Attributes;
     /**
      * This method is called when the beginning of a matching XML element is encountered.
      *
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of this element
      * @throws Exception if any error occurs
      * @since 1.4
@@ -82,9 +82,9 @@ import org.xml.sax.Attributes;
      * This method is called when the body of a matching XML element is encountered. If the element has no body, this
      * method is called with an empty string as the body text.
      *
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param text The text of the body of this element
      * @throws Exception if any error occurs
      * @since 1.4
@@ -98,9 +98,9 @@ import org.xml.sax.Attributes;
     /**
      * This method is called when the end of a matching XML element is encountered.
      *
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @throws Exception if any error occurs
      * @since 1.4
      */
@@ -144,7 +144,7 @@ import org.xml.sax.Attributes;
     /**
      * Sets the {@code Digester} with which this {@code Rule} is associated.
      *
-     * @param digester the {@code Digester} with which this {@code Rule} is associated
+     * @param digester The {@code Digester} with which this {@code Rule} is associated
      */
     public void setDigester( final Digester digester )
     {

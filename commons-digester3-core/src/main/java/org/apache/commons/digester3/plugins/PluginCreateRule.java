@@ -122,9 +122,9 @@ public class PluginCreateRule
      * are then loaded into that new Rules object. Finally, any custom rules that are associated with the current
      * pattern (such as SetPropertiesRules) have their begin methods executed.
      *
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of this element
      * @throws Exception if any error occurs
      */
@@ -306,9 +306,9 @@ public class PluginCreateRule
      * if the Digester class provided a way for this functionality to just be invoked directly.
      *
      * @param rules The rules which {@link Rule#begin(String, String, Attributes)} method has to be fired
-     * @param namespace the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespace The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param list The attribute list of this element
      * @throws Exception if any error occurs
      */
@@ -345,9 +345,9 @@ public class PluginCreateRule
      * It would be really nice if the Digester class provided a way for this functionality to just be invoked directly.
      *
      * @param rules The rules which {@link Rule#body(String, String, String)} method has to be fired
-     * @param namespaceURI the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespaceURI The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param text The text of the body of this element
      * @throws Exception if any error occurs
      */
@@ -382,9 +382,9 @@ public class PluginCreateRule
      * It would be really nice if the Digester class provided a way for this functionality to just be invoked directly.
      *
      * @param rules The rules which {@link Rule#end(String, String)} method has to be fired
-     * @param namespaceURI the namespace URI of the matching element, or an empty string if the parser is not namespace
+     * @param namespaceURI The namespace URI of the matching element, or an empty string if the parser is not namespace
      *            aware or the element has no namespace
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @throws Exception if any error occurs
      */
     public void fireEndMethods( final List<Rule> rules, final String namespaceURI, final String name )

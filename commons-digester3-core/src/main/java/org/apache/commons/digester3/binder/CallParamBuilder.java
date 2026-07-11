@@ -77,7 +77,7 @@ public final class CallParamBuilder
     /**
      * Flags the parameter to be set from the stack.
      *
-     * @param fromStack the parameter flag to be set from the stack
+     * @param fromStack The parameter flag to be set from the stack
      * @return this builder instance
      */
     public CallParamBuilder fromStack( final boolean fromStack )

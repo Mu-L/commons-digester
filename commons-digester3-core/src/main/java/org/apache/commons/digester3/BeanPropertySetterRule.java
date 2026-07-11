@@ -195,7 +195,7 @@ public class BeanPropertySetterRule
     /**
      * Sets the attribute name from which the property name has to be extracted.
      *
-     * @param propertyNameFromAttribute the attribute name from which the property name has to be extracted.
+     * @param propertyNameFromAttribute The attribute name from which the property name has to be extracted.
      * @since 3.0
      */
     public void setPropertyNameFromAttribute( final String propertyNameFromAttribute )

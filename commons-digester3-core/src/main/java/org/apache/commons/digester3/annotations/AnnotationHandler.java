@@ -38,9 +38,9 @@ public interface AnnotationHandler<A extends Annotation, E extends AnnotatedElem
     /**
      * Handles the current visited element with the related current annotation.
      *
-     * @param annotation the current visited annotation.
-     * @param element the current visited annotated element.
-     * @param rulesBinder the annotations {@code RulesBinder} where rules have to be bound.
+     * @param annotation The current visited annotation.
+     * @param element The current visited annotated element.
+     * @param rulesBinder The annotations {@code RulesBinder} where rules have to be bound.
      */
     void handle( A annotation, E element, RulesBinder rulesBinder );
 

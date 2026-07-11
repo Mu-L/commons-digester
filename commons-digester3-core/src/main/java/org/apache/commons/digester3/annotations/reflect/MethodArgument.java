@@ -49,9 +49,9 @@ public final class MethodArgument
     /**
      * Creates a new method argument as {@code AnnotatedElement}.
      *
-     * @param index the method argument index.
-     * @param parameterType the method argument type.
-     * @param annotations the method argument annotations.
+     * @param index The method argument index.
+     * @param parameterType The method argument type.
+     * @param annotations The method argument annotations.
      */
     public MethodArgument( final int index, final Class<?> parameterType, final Annotation[] annotations )
     {

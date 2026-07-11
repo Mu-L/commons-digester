@@ -371,7 +371,7 @@ public class ObjectCreateRule
     /**
      * Allows users to specify constructor argument types.
      *
-     * @param constructorArgumentTypes the constructor argument types
+     * @param constructorArgumentTypes The constructor argument types
      * @since 3.2
      */
     public void setConstructorArgumentTypes( final Class<?>... constructorArgumentTypes )
@@ -390,7 +390,7 @@ public class ObjectCreateRule
      * not supplied by a {@link CallParamRule}, the corresponding item from this array will be used
      * to construct the final object as well.
      *
-     * @param constructorArguments the default constructor arguments.
+     * @param constructorArguments The default constructor arguments.
      * @since 3.2
      */
     public void setDefaultConstructorArguments( final Object... constructorArguments )

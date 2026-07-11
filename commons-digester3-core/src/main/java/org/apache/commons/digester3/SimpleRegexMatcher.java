@@ -73,8 +73,8 @@ public class SimpleRegexMatcher
     /**
      * Implements a regex matching algorithm. This calls itself recursively.
      *
-     * @param basePattern the standard digester path representing the element
-     * @param regexPattern the regex pattern the path will be tested against
+     * @param basePattern The standard digester path representing the element
+     * @param regexPattern The regex pattern the path will be tested against
      * @param baseAt FIXME
      * @param regexAt FIXME
      */
@@ -163,7 +163,7 @@ public class SimpleRegexMatcher
     /**
      * Sets the current {@code Log} implementation used by this class.
      *
-     * @param log the current {@code Log} implementation used by this class.
+     * @param log The current {@code Log} implementation used by this class.
      */
     public void setLog( final Log log )
     {

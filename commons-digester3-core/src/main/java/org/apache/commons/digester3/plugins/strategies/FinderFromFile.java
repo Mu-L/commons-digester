@@ -58,7 +58,7 @@ public class FinderFromFile
     /**
      * See {@link #findLoader}.
      *
-     * @param fileNameAttr the XML attribute that needs to be present on a plugin declaration in order to specify the
+     * @param fileNameAttr The XML attribute that needs to be present on a plugin declaration in order to specify the
      *        file to load rules from.
      */
     public FinderFromFile( final String fileNameAttr )

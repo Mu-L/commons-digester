@@ -66,7 +66,7 @@ public interface Rules
      * @param namespaceURI Namespace URI for which to select matching rules, or {@code null} to match regardless of
      *            namespace URI
      * @param pattern Nesting pattern to be matched
-     * @param name the local name if the parser is namespace aware, or just the element name otherwise
+     * @param name The local name if the parser is namespace aware, or just the element name otherwise
      * @param attributes The attribute list of the current matching element
      * @return A List of all registered Rule instances that match the specified nesting pattern
      */

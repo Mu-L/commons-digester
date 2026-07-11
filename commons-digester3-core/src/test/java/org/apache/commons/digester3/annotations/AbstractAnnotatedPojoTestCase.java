@@ -41,7 +41,7 @@ public abstract class AbstractAnnotatedPojoTestCase
      * Loads the digester rules parsing the expected object class, parses the
      * XML and verify the digester produces the same result.
      *
-     * @param expected the expected object
+     * @param expected The expected object
      * @throws Exception if any error occurs
      */
     public final void verifyExpectedEqualsToParsed(final Object expected) throws Exception {

@@ -71,7 +71,7 @@ public class WithDefaultsRulesWrapper
     /**
      * Base constructor.
      *
-     * @param wrappedRules the wrapped {@code Rules} implementation, not null
+     * @param wrappedRules The wrapped {@code Rules} implementation, not null
      */
     public WithDefaultsRulesWrapper( final Rules wrappedRules )
     {
@@ -92,7 +92,7 @@ public class WithDefaultsRulesWrapper
     /**
      * Adds a rule to be fired when wrapped implementation returns no matches
      *
-     * @param rule a Rule to be fired when wrapped implementation returns no matches
+     * @param rule A Rule to be fired when wrapped implementation returns no matches
      **/
     public void addDefault( final Rule rule )
     {

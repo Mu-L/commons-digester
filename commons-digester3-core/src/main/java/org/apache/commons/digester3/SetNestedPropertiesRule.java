@@ -431,8 +431,8 @@ public class SetNestedPropertiesRule
      * desired.
      * </p>
      *
-     * @param elementName the XML element has to be mapped
-     * @param propertyName the property name target
+     * @param elementName The XML element has to be mapped
+     * @param propertyName The property name target
      */
     public void addAlias( final String elementName, final String propertyName )
     {

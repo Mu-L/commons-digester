@@ -442,7 +442,7 @@ public class PluginRules
     /**
      * See {@link PluginContext#setRuleFinders}.
      *
-     * @param ruleFinders the list of RuleFinder objects
+     * @param ruleFinders The list of RuleFinder objects
      */
     public void setRuleFinders( final List<RuleFinder> ruleFinders )
     {
@@ -453,7 +453,7 @@ public class PluginRules
      * Sets the object which is used to generate the new Rules instances created to hold and process the rules associated
      * with each plugged-in class.
      *
-     * @param factory the rules factory object
+     * @param factory The rules factory object
      */
     public void setRulesFactory( final RulesFactory factory )
     {

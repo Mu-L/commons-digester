@@ -454,7 +454,7 @@ public class CallMethodRule
     /**
      * Subclasses may override this method to perform additional processing of the invoked method's result.
      *
-     * @param result the Object returned by the method invoked, possibly null
+     * @param result The Object returned by the method invoked, possibly null
      */
     protected void processMethodCallResult( final Object result )
     {
